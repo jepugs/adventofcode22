@@ -1,36 +1,29 @@
-# adventofcode
+# adventofcode22
 
-FIXME: description
+Advent of Code 2022, in Clojure. I was using this as an opportunity to learn
+Clojure for the first time, so don't expect high quality code.
 
-## Installation
-
-Download from http://example.com/FIXME.
 
 ## Usage
 
-FIXME: explanation
+If you wanna run it, I recommend you just run it with leiningen. You can use the
+following invocation from the project directory:
 
-    $ java -jar adventofcode-0.1.0-standalone.jar [args]
+    $ lein run <day> <part> <input-file>
 
-## Options
+where `<day>` is the day number (1-25, not all implemented yet), `<part>` is the
+part of the problem (1 or 2) and `<input-file>` is the input. I've included my
+input files in the project directory, so you can do for instance
 
-FIXME: listing of options this app accepts.
+    $ lein run 19 2 input19
+    
+It should work with anyone's input files, but do let me know if you find a bug
+on your input.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
 
-Copyright © 2022 FIXME
+Copyright © 2022 Jack Pugmire
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
