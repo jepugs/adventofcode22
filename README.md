@@ -1,6 +1,6 @@
 # adventofcode22
 
-Advent of Code 2022, in Clojure. I was using this as an opportunity to learn
+Complete solution set for Advent of Code 2022, in Clojure. I was using this as an opportunity to learn
 Clojure for the first time, so don't expect high quality code.
 
 
@@ -11,7 +11,7 @@ following invocation from the project directory:
 
     $ lein run <day> <part> <input-file>
 
-where `<day>` is the day number (1-25, not all implemented yet), `<part>` is the
+where `<day>` is the day number (all implemented), `<part>` is the
 part of the problem (1 or 2) and `<input-file>` is the input. I've included my
 input files in the project directory, so you can do for instance
 
