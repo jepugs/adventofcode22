@@ -1,5 +1,6 @@
 (ns adventofcode22.day3
-  (:require adventofcode22.common))
+  (:require adventofcode22.common
+            clojure.set))
 
 (refer 'adventofcode22.common)
 
